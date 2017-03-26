@@ -1,0 +1,33 @@
+
+
+#boxUn{
+  height:15em;
+  width:210vh;
+  background-color:#ffd701;  
+  margin:25%,10%;
+}
+#boxDo{
+  height:11em;
+  width:210vh;
+  background-color:#ffd701;  
+  margin-top:25%;
+}
+
+.boxy{
+    display:flex;
+    
+}
+
+#boxTre{
+  height:11em;
+  width:50%;
+  background-color:#ffd701;  
+  margin-top:25%;
+}
+#boxQuat{
+  height:11em;
+  width:50%;
+  background-color:#ffd701;  
+}
+
+
