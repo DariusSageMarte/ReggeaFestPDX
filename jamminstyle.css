@@ -1,41 +1,50 @@
 * {
     font-family: sans-serif;
 }
+body {
+  background-color:#ffd701;  
+}
+nav {
+  height: 12vh;
+  background-color: black;
+  width: 100%;
+}
+nav h4 {
+  color: white;
+  margin: 0px 0px;
+}
+#event-container{
+  height:40vh;
+  width:95%;
+  margin: 5vh auto;
+  background-color:green;  
+}
 
-#boxUn{
-  height:15em;
-  width:210vh;
-  background-color:#ffd701;  
-  margin:25%,10%;
-}
-#boxDo{
-  height:11em;
-  width:210vh;
-  background-color:#ffd701;  
-  margin-top:25%;
+.container-nav {
+  height:20vh;
+  width: 95%;
+  margin: 5vh auto;
+  background-color:green;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.boxy{
-    display:flex;
-}
-
-#boxTre{
-  height:11em;
-  width:50%;
-  background-color:#ffd701;  
-  margin-top:25%;
-}
-#boxQuat{
-  height:11em;
-  width:50%;
-  background-color:#ffd701;  
+.boxy {
+  height: 15vh;
+  width: 40%;
+  margin: 0px 2vh;
+  background-color:  #FFD701;
 }
 
 #mission-statement {
     height: 100vh; 
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
     text-align: center;
     background-color: #FFD701;
+    margin-top: 10vh;
 }
 
 #mission-par {
@@ -49,7 +58,7 @@
 }
 
 #partners-container {
-    margin-top: 10vh;
+    margin: 10vh 0px;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -82,19 +91,21 @@ th, td {
 footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-color: black;
     width: 100%;
     color: white;
+
 }
 
 footer div {
-    width: 50%;
-    text-align: center;
-    margin: 5vh 0vh;
+    width: 50vw;
+    margin: 5vh auto;
 }
 .footer-list {
     list-style: none;
     font-size: 2.5vh;
     line-height: 2em;
+    text-align: center;
+    padding: 0px;
 }
