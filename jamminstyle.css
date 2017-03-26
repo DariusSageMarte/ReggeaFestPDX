@@ -1,4 +1,6 @@
-
+* {
+    font-family: sans-serif;
+}
 
 #boxUn{
   height:15em;
@@ -15,7 +17,6 @@
 
 .boxy{
     display:flex;
-    
 }
 
 #boxTre{
@@ -30,4 +31,70 @@
   background-color:#ffd701;  
 }
 
+#mission-statement {
+    height: 100vh; 
+    width: 100%;
+    text-align: center;
+    background-color: #FFD701;
+}
 
+#mission-par {
+    margin: 0 auto;
+    color: black;
+    font-size: 3vh;
+    max-width: 800px;
+    max-height: 100vh;
+    padding-top: 15vh;
+    line-height: 1.75em;
+}
+
+#partners-container {
+    margin-top: 10vh;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #FFD701;
+}
+
+#logo {
+    font-size: 2vh;
+}
+
+#text {
+    font-size: 4vh;
+}
+
+table {
+    width: 90%;
+    height: 75%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+footer div {
+    width: 50%;
+    text-align: center;
+    margin: 5vh 0vh;
+}
+.footer-list {
+    list-style: none;
+    font-size: 2.5vh;
+    line-height: 2em;
+}
