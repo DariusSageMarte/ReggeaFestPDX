@@ -151,11 +151,57 @@ footer div {
 #showy{
     display:none;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 520px) {
      #hidey {
          display:none;
      }
      #showy{
          display:block;
+         text-align: center;
      }
+     
+}
+
+ #box3 {
+    text-align: end;
+   width: 60%;    
+   display: inline-block;
+}
+ #box4 {
+     text-align: left;
+   width: 35%;  
+   display: inline-block;     
+}
+
+#lineups {
+    padding-left: 15vw;
+}
+ .speakers{
+    width:20vw;
+    height:17vw;
+}
+.buttons{
+    width:40vw;
+    height:17vw;
+}
+.nice{
+    width:30vw;
+    height:17vw;
+}
+#doubleshape{
+    height:35vw;
+    width:23vw;
+}
+#firstbox {
+    width:30vw;
+    height:15vw;
+    padding-right: 10vw;
+}
+#secondbox {
+    width:15vw;
+    height:10vw;
+}
+#middlespeak {
+    width:15vw;
+    height:17vw;
 }
