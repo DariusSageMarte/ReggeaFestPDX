@@ -2,7 +2,11 @@
     font-family: sans-serif;
 }
 body {
-  background-color:#ffd701;  
+  /*background-color:#ffd701;  */
+    background: -webkit-linear-gradient(yellow,red);
+    /*background-color: -o-linear-gradient(red, yellow);
+    background-color: -moz-linear-gradient(red, yellow);
+    background-color: linear-gradient(red, yellow); */
 }
 nav {
   height: 12vh;
@@ -161,7 +165,6 @@ footer div {
      }
      
 }
-
 #box2{
     display:inline-flex;
 }
@@ -181,8 +184,16 @@ footer div {
 #box6{
     display:inline-flex;
 }
-#box7{
-    display:inline-flex;
+ picture img{
+    display:inline-block;
+    height:260px;
+    width:906.63px;
+    padding-right:25px;
+}
+section img{
+    display:inline-block;
+    height:260px;
+    width:912.43px;
 }
 
 #lineups {
@@ -195,7 +206,21 @@ footer div {
 .buttons{
     width:40vw;
     height:17vw;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
+.buttons:hover, .buttons:focus, .buttons:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .nice{
     width:30vw;
     height:17vw;
@@ -214,24 +239,10 @@ footer div {
     height:10vw;
 }
 #middlespeak {
-    width:15vw;
-    height:17vw;
+    height:218px;
+width:459.29px;
 }
-.buttons {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.buttons:hover, .buttons:focus, .buttons:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+
 . {
   display: inline-block;
   vertical-align: middle;
@@ -246,4 +257,8 @@ footer div {
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+div div img  {
+    height:327px;
+    width:1300px;
 }
