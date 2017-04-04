@@ -21,7 +21,7 @@ nav h4 {
   width:95%;
   margin: 5vh auto;
   background-color:none;
-  border: 2px solid black;  
+  border: 2px solid white;  
 }
 
 .container-nav {
@@ -40,7 +40,7 @@ nav h4 {
   width: 40%;
   margin: 0px 2vh;
   background-color:  none;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 /*changes*/
 #food{
