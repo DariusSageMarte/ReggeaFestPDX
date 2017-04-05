@@ -28,11 +28,21 @@ nav h4 {
   height:20vh;
   width: 95%;
   margin: 5vh auto;
-  background-color:none;
+  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+#t-i-container {
+    height: 25vh;
+    border: 2px solid white;  
+
+    /*background-image: url('summer/speaker/newbox-02.jpg');
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;  */
 }
 
 .boxy {
